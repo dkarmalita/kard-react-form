@@ -1,0 +1,17 @@
+language: node_js
+cache:
+  directories:
+    - node_modules
+notifications:
+  email: false
+node_js:
+  - 'node'
+before_script:
+  - npm prune
+script:
+  - npm test
+after_success:
+  - ./node_modules/.bin/codecov
+branches:
+ except:
+   - /^v\d+\.\d+\.\d+$/ # only branches tagged with v1.x.x will be tested
