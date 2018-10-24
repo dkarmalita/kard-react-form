@@ -1,5 +1,9 @@
 # kard-react-form
 
+[![Build Status](https://travis-ci.org/dkarmalita/kard-react-form.svg?branch=master)](https://travis-ci.org/dkarmalita/kard-react-form)
+[![codecov](https://codecov.io/gh/dkarmalita/kard-react-form/branch/master/graph/badge.svg)](https://codecov.io/gh/dkarmalita/kard-react-form)
+[![mit](https://img.shields.io/github/license/dkarmalita/kard-react-form.svg)](https://codecov.io/gh/dkarmalita/kard-react-form)
+
 @kard-doc
 
 ## How to develop
